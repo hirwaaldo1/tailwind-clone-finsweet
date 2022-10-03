@@ -4,7 +4,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.hero__bg {
+.hero-background {
   position: absolute;
   width: 524px;
   height: 496px;
@@ -37,7 +37,7 @@ body {
     #cacffa 65.69%
   );
 }
-.footer__background {
+.footer-background{
   position: absolute;
   width: 100%;
   height: 80vh;
@@ -55,7 +55,7 @@ body {
     #cacffa 65.69%
   );
 }
-.price-card__item--background {
+.price-background {
   border: 4px solid #6b7cff;
   background: linear-gradient(175.67deg, #d7e7f9 13.12%, #d5f4ec 96.48%);
 }
