@@ -1168,10 +1168,10 @@ body {
   );
 }
 
-.hero__background {
+.hero__background, .about__background {
   position: absolute;
   left: 25%;
-  z-index: -1000;
+  z-index: -50;
   margin: auto;
   height: 31rem;
   width: 32.75rem;
@@ -1190,7 +1190,7 @@ body {
 
 .info__background {
   position: absolute;
-  z-index: -1000;
+  z-index: -50;
   height: 80vh;
   width: 100%;
   opacity: 0.9;
@@ -1207,7 +1207,7 @@ body {
 .footer__background {
   position: absolute;
   bottom: 0.75rem;
-  z-index: -1000;
+  z-index: -50;
   height: 80vh;
   width: 100%;
   border-radius: 9999px;
@@ -1286,7 +1286,7 @@ body {
   color: rgb(29 33 48 / var(--tw-text-opacity));
 }
 
-.hero__desc {
+.hero__text {
   margin-bottom: 1.75rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1294,14 +1294,15 @@ body {
 
 .hero__title {
   margin-bottom: 1.25rem;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
   color: rgb(29 33 48 / var(--tw-text-opacity));
 }
 
-.hero__desc {
+.hero__text {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 400;
@@ -1362,7 +1363,8 @@ body {
 .solutions__title {
   margin-bottom: 1.25rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1388,8 +1390,8 @@ body {
 
 .solutions__body {
   margin: auto;
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 3.5rem;
   display: grid;
   width: -webkit-fit-content;
@@ -1426,8 +1428,8 @@ body {
 }
 
 .info {
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 8rem;
   margin-bottom: 6.25rem;
   display: grid;
@@ -1441,7 +1443,8 @@ body {
 
 .info__title, .sales__title {
   margin-bottom: 1.25rem;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1466,6 +1469,7 @@ body {
 .info__text, .sales__text {
   font-weight: 400;
   line-height: 150%;
+  opacity: 0.8;
 }
 
 .info__details, .sales__details {
@@ -1502,8 +1506,8 @@ body {
 }
 
 .customer {
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 12.5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1522,7 +1526,8 @@ body {
 
 .customer__title {
   margin-bottom: 1.25rem;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1533,6 +1538,7 @@ body {
   margin-bottom: 2rem;
   font-weight: 400;
   line-height: 150%;
+  opacity: 0.5;
 }
 
 .customer__buttom {
@@ -1548,10 +1554,10 @@ body {
 }
 
 .companies {
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 6.25rem;
   margin-bottom: 3.5rem;
-  margin-right: 5%;
-  margin-left: 5%;
   display: flex;
   width: 90%;
   flex-wrap: wrap;
@@ -1563,8 +1569,8 @@ body {
 }
 
 .sales {
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 8rem;
   margin-bottom: 6.25rem;
   display: grid;
@@ -1579,7 +1585,8 @@ body {
 .features__title {
   margin-bottom: 1.25rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1588,8 +1595,8 @@ body {
 
 .features__card {
   margin: auto;
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 3.5rem;
   margin-bottom: 4rem;
   display: grid;
@@ -1615,7 +1622,8 @@ body {
 .stuff__title {
   margin-bottom: 1.25rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1623,8 +1631,8 @@ body {
 }
 
 .stuff__body {
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1677,7 +1685,8 @@ body {
 .footer__title {
   margin-bottom: 1.25rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1706,8 +1715,8 @@ body {
   margin-top: 6.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(29 33 48 / var(--tw-bg-opacity));
-  padding-right: 5%;
   padding-left: 5%;
+  padding-right: 5%;
   padding-top: 3.5rem;
   padding-bottom: 6.25rem;
   --tw-text-opacity: 1;
@@ -1801,8 +1810,8 @@ body {
 }
 
 .hero-product {
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1816,7 +1825,8 @@ body {
 
 .hero-product__title {
   margin-bottom: 1.25rem;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1864,7 +1874,8 @@ body {
 .service__title {
   margin-bottom: 1.25rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;
@@ -1916,8 +1927,8 @@ body {
 }
 
 .about {
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 6rem;
   margin-bottom: 6.25rem;
   display: grid;
@@ -1931,7 +1942,8 @@ body {
 
 .about__title {
   margin-bottom: 1.25rem;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 600;
   line-height: 110%;
   --tw-text-opacity: 1;

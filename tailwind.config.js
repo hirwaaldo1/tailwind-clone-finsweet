@@ -16,8 +16,8 @@ module.exports = {
         'bg-rgba-2':'rgba(215, 152, 225, 0.15)',
         'bg-rgba-3':'rgba(97, 153, 237, 0.26)',
         'bg-rgba-4':"rgba(255, 255, 255, 0.69)",
-        'main':"#1D2130",
-        'semi-main':"#2B2E3C",
+        'primary':"#1D2130",
+        'semi-primary':"#2B2E3C",
         'light-blue':"#3ACAF8",
         'dark-blue':"#373FFF",
         'secondary':"#E0E4FC",
@@ -49,9 +49,6 @@ module.exports = {
         '5.5':"5%",
         "130":"8.125rem"
       },
-      fontSize: {
-        large:"3.5rem",
-      },
       padding:{
         "100":"6.25rem",
         '5.5':"5%",
@@ -63,9 +60,6 @@ module.exports = {
         ex:"6.25rem",
         xs: '12.5rem',
       },
-      zIndex: {
-        'n/1': '-1000',
-      }
     },
   },
   plugins: [],
