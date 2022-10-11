@@ -4,14 +4,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.hero-background {
-  position: absolute;
-  width: 32.75rem;
-  height: 31rem;
-  border-radius: 50%;
-  margin: auto;
-  left: 10%;
-  z-index: -1000;
+.blue-gradient{
   background: radial-gradient(
     483.9% 2719.65% at -49.5% -250%,
     #d798e1 17.55%,
@@ -20,62 +13,17 @@ body {
     #c9d4ef 56.53%,
     #cacffa 65.69%
   );
-  filter: blur(12.5rem);
 }
-.more-info__background {
-  position: absolute;
-  width: 100%;
-  height: 80vh;
-  z-index: -1000;
-  opacity: 0.9;
-  background: radial-gradient(
-    483.9% 2719.65% at -49.5% -250%,
-    #d798e173 17.55%,
-    #9bffa563 27.56%,
-    #aed3ff 49.89%,
-    #c9d4ef 56.53%,
-    #cacffa 65.69%
-  );
+.hero__background {
+  @apply absolute w-90  h-31 rounded-full m-auto left-1/4 z-n/1 blur-xs blue-gradient ;
 }
-.footer-background{
-  position: absolute;
-  width: 100%;
-  height: 80vh;
-  border-radius: 50%;
-  bottom: 0.75rem;
-  z-index: -1000;
-  opacity: 0.3;
-  filter: blur(6.25rem);
-  background: radial-gradient(
-    483.9% 2719.65% at -49.5% -250%,
-    #d58ae1 17.55%,
-    #8cfa97 27.56%,
-    #aed3ff 49.89%,
-    #c9d4ef 56.53%,
-    #cacffa 65.69%
-  );
+.info__background {
+  @apply  absolute w-full h-80  z-n/1 opacity-90 blue-gradient ;
 }
-.price-background {
-  border: 0.25rem solid #6b7cff;
-  background: linear-gradient(175.67deg, #d7e7f9 13.12%, #d5f4ec 96.48%);
+.footer__background{
+  @apply  absolute w-full rounded-full h-80 bottom-3 z-n/1 opacity-30 blur-ex blue-gradient ;
 }
-.price-bg {
-  position: absolute;
-  width: 100%;
-  height: 180vh;
-  border-radius: 50%;
-  top: 70%;
-  z-index: -1000;
-  background: radial-gradient(
-      483.9% 2719.65% at -49.5% -250%,
-      #d798e180 17.55%,
-      #9bffa54e 27.56%,
-      #aed2ff75 49.89%,
-      #c9d4ef7a 56.53%,
-      #cacffa 65.69%
-    );
-  filter: blur(21.875rem);
-}
+
 .service {
   @apply relative pt-24;
   background: radial-gradient(
