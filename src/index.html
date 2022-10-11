@@ -12,282 +12,285 @@
 </head>
 
 <body>
-  <header class="flex justify-between p-4">
-    <img src="../img/Vector.png" class=" h-[30.92px] w-[138.75px]" />
-    <ul class="m-0 p-0">
-      <li class="inline-flex pr-[20px]"><a href="./index.html">Home</a></li>
-      <li class="inline-flex pr-[20px]"><a href="./product.html">Product</a></li>
-      <li class="inline-flex pr-[20px]"><a href="./pricing.html">Pricing</a></li>
-      <li class="inline-flex pr-[20px]"><a href="./about-us.html">About Us</a></li>
-      <li class="inline-flex pr-[20px]"><a href="./blog.html">Blog</a></li>
-      <li class="inline-flex pr-[20px]"><a href="./contact-us.html">Contact</a></li>
-      <li class="inline-flex pr-[20px]">
-        <button class="bg-[#1D2130] p-[16px] pl-[40px] pr-[40px] rounded-[12px] text-white font-semibold">
+  <header class="header">
+    <img src="../img/Vector.png" class="header__image" />
+    <ul class="header__list">
+      <li class="header__menu"><a href="./index.html">Home</a></li>
+      <li class="header__menu"><a href="./product.html">Product</a></li>
+      <li class="header__menu"><a href="./pricing.html">Pricing</a></li>
+      <li class="header__menu"><a href="./about-us.html">About Us</a></li>
+      <li class="header__menu"><a href="./blog.html">Blog</a></li>
+      <li class="header__menu"><a href="./contact-us.html">Contact</a></li>
+      <li class="header__menu">
+        <button class="header__button">
           Free trial
         </button>
       </li>
     </ul>
   </header>
-  <section class="text-center mt-[60px]  relative">
-    <div class="hero__bg">
+  <section class="hero">
+    <div class="hero-background">
     </div>
-    <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130] ">
+    <p class="hero__title">
       The Best Software to Grow <br /> your Sales and Services
     </p>
-    <p class="font-[400] text-[18px] leading-[150%] text-[#1D2130] opacity-[0.87]">
+    <p class="hero__desc">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br /> invidunt ut labore
       et dolore magna aliquyam erat.
     </p>
-    <div class="bg-[white] w-fit m-auto mt-[50px] p-[4px] rounded-[12px] ">
+    <div class="hero__form">
       <input placeholder="Enter your Email"
-        class="text-black outline-none w-[400px] placeholder:text-[#1D2130] text-[16px] pl-[12px]" />
-      <button class="bg-[#1D2130] p-[16px] pl-[40px] pr-[40px] rounded-[12px] text-white font-semibold">
+        class="hero__input" />
+      <button class="hero__button">
         Get Free trial
       </button>
     </div>
-    <img class="m-auto mt-[100px] " src="../img/Dashboard image.png" />
+    <img class="hero__image" src="../img/Dashboard image.png" />
   </section>
-  <div class="text-center mt-[100px]">
-    <p
-      class="text-[24px] font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#373FFF] to-[#3ACAF8] mb-[20px]">
-      High-quality</p>
-    <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130] ">
-      We have the Best Solution <br /> for your Business
-    </p>
-  </div>
-  <div
-    class="grid grid-cols-3 m-auto w-fit bg-[#E0E4FC] p-[40px] pt-[50px] pb-[50px] gap-[40px] rounded-[24px] mr-[5%] ml-[5%] mt-[50px]">
-    <div>
-      <img src="../img/3.png" class="w-[66.44px] mb-[20px]" />
-      <p class="text-[32px] font-[700] leading-[120%] mt-[10px] mb-[20px]">High security to protect from piracy</p>
-      <p class="font-[400] text-[16px] opacity-[0.87] mt-[10px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy.</p>
-    </div>
-    <div>
-      <img src="../img/3.png" class="w-[66.44px] mb-[20px]" />
-      <p class="text-[32px] font-[700] leading-[120%] mt-[10px] mb-[20px]">High security to protect from piracy</p>
-      <p class="font-[400] text-[16px] opacity-[0.87] mt-[10px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy.</p>
-    </div>
-    <div>
-      <img src="../img/3.png" class="w-[66.44px] mb-[20px]" />
-      <p class="text-[32px] font-[700] leading-[120%] mt-[10px] mb-[20px]">High security to protect from piracy</p>
-      <p class="font-[400] text-[16px] opacity-[0.87] mt-[10px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy.</p>
-    </div>
-  </div>
-  <section class="mr-[5%] ml-[5%]  mt-[120px] gap-[40px] grid grid-cols-2 mb-[100px]">
-    <div class="m-auto">
+  <section class="solutions">
       <p
-        class="text-[24px] font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#373FFF] to-[#3ACAF8] mb-[20px]">
+        class="solutions__title solutions__title--small">
+        High-quality</p>
+      <p class="solutions__title">
+        We have the Best Solution <br /> for your Business
+      </p>
+    <div
+      class="solutions__body">
+      <div class="solutions__item">
+        <img src="../img/3.png" class="solutions__img" />
+        <p class="solutions__header">High security to protect from piracy</p>
+        <p class="solutions__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy.</p>
+      </div>
+      <div class="solutions__item">
+        <img src="../img/3.png" class="solutions__img" />
+        <p class="solutions__header">High security to protect from piracy</p>
+        <p class="solutions__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy.</p>
+      </div>
+      <div class="solutions__item">
+        <img src="../img/3.png" class="solutions__img" />
+        <p class="solutions__header">High security to protect from piracy</p>
+        <p class="solutions__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy.</p>
+      </div>
+    </div>
+  </section>
+  <section class="info">
+    <div class="info__item">
+      <p
+        class="info__title info__title--small">
         Why should you work with us?</p>
-      <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130] ">To upscale your business to the next
+      <p class="info__title">To upscale your business to the next
         level</p>
-      <p class="text-[16px] leading-[150%] font-[400]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      <p class="info__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
         nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore.</p>
     </div>
-    <div class="m-auto">
-      <div class="flex gap-[20px] mb-[30px]">
-        <span class="bg-[#FFACAC] h-[48px] w-[48px] mt-auto mb-auto p-[17px] rounded-[50%]"><img
+    <div class="info__item">
+      <div class="info__details">
+        <span class="info__icon"><img
             src="../img/Arrow.png" /></span>
-        <p class="text-[20px] font-[400] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.</p>
+        <p class="info__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <br/>eiusmod.</p>
       </div>
-      <div class="flex gap-[20px] mb-[30px]">
-        <span class="bg-[#FFACAC] h-[48px] w-[48px] mt-auto mb-auto p-[17px] rounded-[50%]"><img
+      <div class="info__details">
+        <span class="info__icon"><img
             src="../img/Arrow.png" /></span>
-        <p class="text-[20px] font-[400] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.</p>
+        <p class="info__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <br/>eiusmod.</p>
       </div>
-      <div class="flex gap-[20px] mb-[30px]">
-        <span class="bg-[#FFACAC] h-[48px] w-[48px] mt-auto mb-auto p-[17px] rounded-[50%]"><img
+      <div class="info__details">
+        <span class="info__icon"><img
             src="../img/Arrow.png" /></span>
-        <p class="text-[20px] font-[400] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.</p>
+        <p class="info__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <br/>eiusmod.</p>
       </div>
     </div>
   </section>
   <div class="more-info__background">
-
   </div>
-  <section class="mr-[5%] ml-[5%] mt-[200px] grid grid-cols-2 bg-transparent">
-    <div class=" m-auto bg-transparent ">
-      <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130] ">More impressions, more conversions</p>
-      <p class="text-[16px] leading-[150%] font-[400] mb-[30px]">Lorem ipsum dolor sit amet, consetetur sadipscing
+  <section class="customer">
+    <div class="customer__item">
+      <p class="customer__title">More impressions, more conversions</p>
+      <p class="customer__text">Lorem ipsum dolor sit amet, consetetur sadipscing
         elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
         invidunt ut labore.</p>
-      <button class="bg-[#1D2130] p-[16px] pl-[40px] pr-[40px] rounded-[12px] text-white font-semibold">
+      <button class="customer__buttom">
         Get Free trial
       </button>
     </div>
-    <div>
-      <img src="../img/Image.png" class="" />
+    <div class="customer__item customer__item--right">
+      <img src="../img/Image.png" />
     </div>
   </section>
-  <section class="flex mt-[100px] flex-wrap w-[90%] mb-[50px] gap-[120px] mr-[5%] ml-[5%]">
-    <img src="../img/logo1.PNG" class="w-[170px]" />
-    <img src="../img/logo2.PNG" class="w-[170px]" />
-    <img src="../img/logo3.PNG" class="w-[170px]" />
-    <img src="../img/logo4.PNG" class="w-[170px]" />
-    <img src="../img/logo3.PNG" class="w-[170px]" />
+  <section class="companies">
+    <img src="../img/logo1.PNG" class="companies__item" />
+    <img src="../img/logo2.PNG" class="companies__item" />
+    <img src="../img/logo3.PNG" class="companies__item" />
+    <img src="../img/logo4.PNG" class="companies__item" />
+    <img src="../img/logo3.PNG" class="companies__item" />
   </section>
-  <section class="mr-[5%] ml-[5%]  mt-[120px] gap-[40px] grid grid-cols-2 mb-[100px]">
-    <div class="m-auto">
+  <section class="sales">
+    <div class="sales__item">
       <p
-        class="text-[24px] font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#373FFF] to-[#3ACAF8] mb-[20px]">
+        class="sales__title sales__title--small">
         Discover More</p>
-      <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130] ">Analyze your sales and marketing leads
+      <p class="sales__title">Analyze your sales and marketing leads
       </p>
-      <p class="text-[16px] leading-[150%] font-[400]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      <p class="sales__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
         nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore.</p>
     </div>
-    <div class="m-auto">
-      <div class="flex gap-[20px] mb-[30px]">
-        <span class="h-[48px] w-[48px] mt-auto mb-auto p-[17px] rounded-[50%] bg-[#F4F5F7]"><img
+    <div class="sales__item">
+      <div class="sales__details">
+        <span class="sales__icon"><img
             src="../img/icons.png" /></span>
-        <p class="text-[20px] font-[400] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.</p>
+        <p class="sales__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <br/>eiusmod.</p>
       </div>
-      <div class="flex gap-[20px] mb-[30px]">
-        <span class="h-[48px] w-[48px] mt-auto mb-auto p-[17px] rounded-[50%] bg-[#F4F5F7]"><img
+      <div class="sales__details">
+        <span class="sales__icon"><img
             src="../img/icons.png" /></span>
-        <p class="text-[20px] font-[400] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.</p>
+        <p class="sales__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <br/>eiusmod.</p>
       </div>
-      <div class="flex gap-[20px] mb-[30px]">
-        <span class="h-[48px] w-[48px] mt-auto mb-auto p-[17px] rounded-[50%] bg-[#F4F5F7]"><img
+      <div class="sales__details">
+        <span class="sales__icon"><img
             src="../img/icons.png" /></span>
-        <p class="text-[20px] font-[400] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.</p>
+        <p class="sales__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <br/>eiusmod.</p>
       </div>
     </div>
   </section>
-  <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130]  text-center">
-    Features
-  </p>
-  <div
-    class="grid grid-cols-3 m-auto w-fit p-[40px] pt-[50px] pb-[50px] gap-[40px] rounded-[24px] mr-[5%] ml-[5%] mt-[50px] bg-bg-rgba-2 mb-[60px]">
-    <div>
-      <img src="../img/3.png" class="w-[66.44px] mb-[20px]" />
-      <p class="text-[32px] font-[700] leading-[120%] mt-[10px] mb-[20px]">High security to protect from piracy</p>
-      <p class="font-[400] text-[16px] opacity-[0.87] mt-[10px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy.</p>
-    </div>
-    <div class="border-l-[3px] border-[#CDC7D2] pl-[30px]">
-      <img src="../img/3.png" class="w-[66.44px] mb-[20px]" />
-      <p class="text-[32px] font-[700] leading-[120%] mt-[10px] mb-[20px]">High security to protect from piracy</p>
-      <p class="font-[400] text-[16px] opacity-[0.87] mt-[10px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy.</p>
-    </div>
-    <div class="border-l-[3px] border-[#CDC7D2] pl-[30px]">
-      <img src="../img/3.png" class="w-[66.44px] mb-[20px]" />
-      <p class="text-[32px] font-[700] leading-[120%] mt-[10px] mb-[20px]">High security to protect from piracy</p>
-      <p class="font-[400] text-[16px] opacity-[0.87] mt-[10px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy.</p>
-    </div>
-  </div>
-  <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130] text-center">
-    The stunning results our <br />
-    customers have experienced
-  </p>
-  <section class="grid grid-cols-3 text-center mr-[5%] ml-[5%] mt-[80px] gap-[20px]">
-    <div class="border-[2px] border-bg-rgba-3 p-[50px] rounded-[24px] pl-[40px] pr-[40px]">
-      <p class="font-[600] text-[18px] leading-[150%] mb-[20px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-      <img src="../img/people.png" class="w-[56px] m-auto" />
-      <p class="font-[500] text-[20px] leading-[150%]">Ron Wood</p>
-      <p class="font-[400] text-[#1D2130] text-[12px] leading-[18px]">CEO</p>
-    </div>
-    <div class="border-[2px] border-bg-rgba-3 p-[50px] rounded-[24px] pl-[40px] pr-[40px]">
-      <p class="font-[600] text-[18px] leading-[150%] mb-[20px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-      <img src="../img/people.png" class="w-[56px] m-auto" />
-      <p class="font-[500] text-[20px] leading-[150%]">Ron Wood</p>
-      <p class="font-[400] text-[#1D2130] text-[12px] leading-[18px]">CEO</p>
-    </div>
-    <div class="border-[2px] border-bg-rgba-3 p-[50px] rounded-[24px] pl-[40px] pr-[40px]">
-      <p class="font-[600] text-[18px] leading-[150%] mb-[20px]">Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-      <img src="../img/people.png" class="w-[56px] m-auto" />
-      <p class="font-[500] text-[20px] leading-[150%]">Ron Wood</p>
-      <p class="font-[400] text-[#1D2130] text-[12px] leading-[18px]">CEO</p>
+  <section class="features">
+    <p class="features__title">
+      Features
+    </p>
+    <div
+      class="features__card">
+      <div class="features__item">
+        <img src="../img/3.png" class="features__img" />
+        <p class="features__header">High security to protect from piracy</p>
+        <p class="features__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy.</p>
+      </div>
+      <div class="features__item features__item--outline">
+        <img src="../img/3.png" class="features__img" />
+        <p class="features__header">High security to protect from piracy</p>
+        <p class="features__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy.</p>
+      </div>
+      <div class="features__item features__item--outline">
+        <img src="../img/3.png" class="features__img" />
+        <p class="features__header">High security to protect from piracy</p>
+        <p class="features__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy.</p>
+      </div>
     </div>
   </section>
-  <footer class="mt-[130px] text-center relative">
-    <div class="footer__background">
+  <section class="stuff">
+    <p class="stuff__title">
+      The stunning results our <br />
+      customers have experienced
+    </p>
+    <div class="stuff__body">
+      <div class="stuff__item">
+        <p class="stuff__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <img src="../img/people.png" class="stuff__image" />
+        <p class="stuff__subtitle">Ron Wood</p>
+        <p class="stuff__subtitle stuff__subtitle--small">CEO</p>
+      </div>
+      <div class="stuff__item">
+        <p class="stuff__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <img src="../img/people.png" class="stuff__image" />
+        <p class="stuff__subtitle">Ron Wood</p>
+        <p class="stuff__subtitle stuff__subtitle--small">CEO</p>
+      </div>
+      <div class="stuff__item">
+        <p class="stuff__text">Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <img src="../img/people.png" class="stuff__image" />
+        <p class="stuff__subtitle">Ron Wood</p>
+        <p class="stuff__subtitle stuff__subtitle--small">CEO</p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-background">
 
     </div>
-    <p class="text-[56px] font-[600] leading-[110%] mb-[20px] text-[#1D2130] text-center">
+    <p class="footer__title">
       Are you ready to grow your <br /> business with us?
     </p>
-    <p class="text-[16px] leading-[150%] font-[400] mb-[40px]">
+    <p class="footer__text">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
     </p>
-    <button class="bg-[#1D2130] p-[16px] pl-[40px] pr-[40px] rounded-[12px] text-white font-semibold">
+    <button class="footer__button">
       Free trial
     </button>
-    <div class="bg-[#1D2130] text-white pr-[5%] pl-[5%] mt-[100px] pt-[50px] pb-[100px]">
-      <div class=" flex  text-left gap-[100px]">
-        <div>
-          <p class="font-[600] text-[18px] mb-[10px]">
+    <div class="footer__body">
+      <div class="footer__card">
+        <div class="footer__item">
+          <p class="footer__header">
             Company Info
           </p>
-          <ul>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">About Us</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Carrier</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">We are hiring</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Blog</li>
+          <ul class="footer__menu">
+            <li class="footer__link">About Us</li>
+            <li class="footer__link">Carrier</li>
+            <li class="footer__link">We are hiring</li>
+            <li class="footer__link">Blog</li>
           </ul>
         </div>
-        <div>
-          <p class="font-[600] text-[18px] mb-[10px]">
+        <div class="footer__item">
+          <p class="footer__header">
             Company Info
           </p>
-          <ul>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">About Us</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Carrier</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">We are hiring</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Blog</li>
+          <ul class="footer__menu">
+            <li class="footer__link">About Us</li>
+            <li class="footer__link">Carrier</li>
+            <li class="footer__link">We are hiring</li>
+            <li class="footer__link">Blog</li>
           </ul>
         </div>
-        <div>
-          <p class="font-[600] text-[18px] mb-[10px]">
+        <div class="footer__item">
+          <p class="footer__header">
             Company Info
           </p>
-          <ul>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">About Us</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Carrier</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">We are hiring</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Blog</li>
+          <ul class="footer__menu">
+            <li class="footer__link">About Us</li>
+            <li class="footer__link">Carrier</li>
+            <li class="footer__link">We are hiring</li>
+            <li class="footer__link">Blog</li>
           </ul>
         </div>
-        <div>
-          <p class="font-[600] text-[18px] mb-[10px]">
+        <div class="footer__item">
+          <p class="footer__header">
             Company Info
           </p>
-          <ul>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">About Us</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Carrier</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">We are hiring</li>
-            <li class="font-[400] text-[14px] opacity-[0.6] mb-[12px]">Blog</li>
+          <ul class="footer__menu">
+            <li class="footer__link">About Us</li>
+            <li class="footer__link">Carrier</li>
+            <li class="footer__link">We are hiring</li>
+            <li class="footer__link">Blog</li>
           </ul>
         </div>
-        <div>
-          <img src="../img/Vectorwhite.png" class="mb-[20px]" />
-          <p class="font-[600] text-[18px] mb-[20px]">Subscribe to our Newsletter</p>
-          <div class="bg-[#2B2E3C] w-[100%] m-auto flex  rounded-[12px]">
+        <div class="footer__item">
+          <img src="../img/Vectorwhite.png" class="footer__image" />
+          <p class="footer__subtitle">Subscribe to our Newsletter</p>
+          <div class="footer__form">
             <input
-              class="text-black outline-none bg-transparent p-[12px] placeholder:text-[white] placeholder:opacity-[0.5] text-[16px] pl-[12px]"
+              class="footer__input"
               type="text" placeholder="Your Email">
             <button
-              class=" p-[16px] pl-[40px] pr-[40px] rounded-[12px] font-semibold text-[black] bg-white">Subscribe</button>
+              class="footer__button footer__button--light">Subscribe</button>
           </div>
         </div>
       </div>
-      <div class="flex mt-[50px] opacity-[0.5]">
-        <hr class="w-[40%] m-auto" />
+      <div class="footer__end">
+        <hr class="footer__line" />
         <p>© Copyright Finsweet 2022</p>
-        <hr class="w-[40%] m-auto" />
+        <hr class="footer__line" />
       </div>
     </div>
   </footer>
