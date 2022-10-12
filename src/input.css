@@ -4,7 +4,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.blue-gradient{
+.blue-gradient {
   background: radial-gradient(
     483.9% 2719.65% at -49.5% -250%,
     #d798e1 17.55%,
@@ -14,14 +14,15 @@ body {
     #cacffa 65.69%
   );
 }
-.hero__background,.about__background {
-  @apply absolute w-90  h-31 rounded-full m-auto left-1/4 -z-50 blur-xs blue-gradient ;
+.hero__background,
+.about__backdrop {
+  @apply absolute w-90  h-31 rounded-full m-auto left-1/4 -z-50 blur-xs blue-gradient;
 }
 .info__background {
-  @apply  absolute w-full h-80  -z-50 opacity-90 blue-gradient ;
+  @apply absolute w-full h-80  -z-50 opacity-90 blue-gradient;
 }
-.footer__background{
-  @apply  absolute w-full rounded-full h-80 bottom-3 -z-50 opacity-30 blur-ex blue-gradient ;
+.footer__background {
+  @apply absolute w-full rounded-full h-80 bottom-3 -z-50 opacity-30 blur-ex blue-gradient;
 }
 
 .service {
@@ -36,250 +37,257 @@ body {
   );
 }
 
-
-.header{
+.header {
   @apply flex justify-between p-4;
 }
-.header__list{
+.header__list {
   @apply m-0 p-0;
 }
-.header__menu{
-  @apply inline-flex pr-5
+.header__menu {
+  @apply inline-flex pr-5;
 }
-.header__button{
-  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold
+.header__button {
+  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold;
 }
-.header__image{
+.header__image {
   @apply h-logo-h w-logo-w;
 }
-.hero{
+.hero {
   @apply text-center mt-16  relative;
 }
-.title{
-  @apply text-5xl font-semibold leading-normal mb-5 text-primary ;
+.title {
+  @apply text-5xl font-semibold leading-normal mb-5 text-primary;
 }
-.hero__text{
-  @apply mb-7 text-lg
+.hero__text {
+  @apply mb-7 text-lg;
 }
-.hero__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary 
+.hero__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary;
 }
-.hero__text{
-  @apply font-normal text-lg leading-relaxed text-primary opacity-80
+.hero__text {
+  @apply font-normal text-lg leading-relaxed text-primary opacity-80;
 }
-.hero__form{
-  @apply bg-white w-fit m-auto mt-14 p-1 rounded-xl
+.hero__form {
+  @apply bg-white w-fit m-auto mt-14 p-1 rounded-xl;
 }
-.hero__input{
+.hero__input {
   @apply text-black outline-none w-96 placeholder:text-primary pl-3;
 }
-.hero__button{
-  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold
+.hero__button {
+  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold;
 }
-.hero__image{
-  @apply m-auto mt-100
+.hero__image {
+  @apply m-auto mt-100;
 }
-.solutions__title{
-  @apply text-6xl text-center font-semibold leading-normal mb-5 text-primary 
+.solutions__title {
+  @apply text-6xl text-center font-semibold leading-normal mb-5 text-primary;
 }
-.solutions__title--small{
-  @apply text-2xl text-center mt-100 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-dark-blue to-light-blue mb-5
+.solutions__title--small {
+  @apply text-2xl text-center mt-100 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-dark-blue to-light-blue mb-5;
 }
-.solutions__body{
-  @apply grid grid-cols-3 m-auto w-fit bg-secondary p-10 py-14 gap-10 rounded-3xl mx-5.5 mt-14
+.solutions__body {
+  @apply grid grid-cols-3 m-auto w-fit bg-secondary p-10 py-14 gap-10 rounded-3xl mx-5.5 mt-14;
 }
-.solutions__img,.features__img{
-  @apply w-6.6 mb-5
+.solutions__img,
+.features__img {
+  @apply w-6.6 mb-5;
 }
-.solutions__header,.features__header{
-  @apply text-3xl font-bold leading-normal mt-2.5 mb-5
+.solutions__header,
+.features__header {
+  @apply text-3xl font-bold leading-normal mt-2.5 mb-5;
 }
-.solutions__text,.features__text{
-  @apply font-normal  opacity-80 mt-2.5
+.solutions__text,
+.features__text {
+  @apply font-normal  opacity-80 mt-2.5;
 }
-.info{
-  @apply mx-5.5  mt-32 gap-10 grid grid-cols-2 mb-100
+.info {
+  @apply mx-5.5  mt-32 gap-10 grid grid-cols-2 mb-100;
 }
-.info__item{
-  @apply m-auto
+.info__item {
+  @apply m-auto;
 }
-.info__title,.sales__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary 
+.info__title,
+.sales__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary;
 }
-.info__title--small,.sales__title--small{
-  @apply text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-dark-blue to-light-blue mb-5
+.info__title--small,
+.sales__title--small {
+  @apply text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-dark-blue to-light-blue mb-5;
 }
-.info__text,.sales__text{
-  @apply leading-relaxed font-normal opacity-80
+.info__text,
+.sales__text {
+  @apply leading-relaxed font-normal opacity-80;
 }
-.info__details,.sales__details{
-  @apply flex gap-5 mb-8
+.info__details,
+.sales__details {
+  @apply flex gap-5 mb-8;
 }
-.sales__icon{
- @apply h-12 w-12 mt-auto mb-auto p-4 rounded-full bg-semi-secondary
+.sales__icon {
+  @apply h-12 w-12 mt-auto mb-auto p-4 rounded-full bg-semi-secondary;
 }
-.info__icon{
-  @apply bg-danger h-12 w-12 mt-auto mb-auto p-4 rounded-full
+.info__icon {
+  @apply bg-danger h-12 w-12 mt-auto mb-auto p-4 rounded-full;
 }
-.info__subtitle,.sales__subtitle{
-  @apply  font-normal leading-relaxed
+.info__subtitle,
+.sales__subtitle {
+  @apply font-normal leading-relaxed;
 }
-.customer{
-  @apply mx-5.5 mt-200 grid grid-cols-2 bg-transparent
+.customer {
+  @apply mx-5.5 mt-200 grid grid-cols-2 bg-transparent;
 }
-.customer__item{
-  @apply m-auto bg-transparent
+.customer__item {
+  @apply m-auto bg-transparent;
 }
-.customer__item--right{
-  @apply m-0 bg-none
+.customer__item--right {
+  @apply m-0 bg-none;
 }
-.customer__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary 
+.customer__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary;
 }
-.customer__text{
-  @apply  leading-relaxed font-normal mb-8 opacity-50
+.customer__text {
+  @apply leading-relaxed font-normal mb-8 opacity-50;
 }
-.customer__buttom{
-  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold
+.customer__buttom {
+  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold;
 }
-.companies{
-  @apply flex mt-100 flex-wrap w-9.10 mb-14 gap-32 mx-5.5
+.companies {
+  @apply flex mt-100 flex-wrap w-9.10 mb-14 gap-32 mx-5.5;
 }
-.companies__item{
-  @apply w-170
+.companies__item {
+  @apply w-170;
 }
-.sales{
-  @apply mx-5.5  mt-32 gap-10 grid grid-cols-2 mb-100
+.sales {
+  @apply mx-5.5  mt-32 gap-10 grid grid-cols-2 mb-100;
 }
-.sales__item{
-  @apply m-auto
+.sales__item {
+  @apply m-auto;
 }
-.features__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary  text-center
+.features__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary  text-center;
 }
-.features__card{
-  @apply grid grid-cols-3 m-auto w-fit p-10 py-14 gap-10 rounded-3xl mx-5.5 mt-14 bg-bg-rgba-2 mb-16
+.features__card {
+  @apply grid grid-cols-3 m-auto w-fit p-10 py-14 gap-10 rounded-3xl mx-5.5 mt-14 bg-bg-rgba-2 mb-16;
 }
-.features__item--outline{
-  @apply border-l-3 border-extra-secondary pl-8
+.features__item--outline {
+  @apply border-l-3 border-extra-secondary pl-8;
 }
-.stuff__title{
-    @apply text-6xl font-semibold leading-normal mb-5 text-primary text-center
+.testimonials__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary text-center;
 }
-.stuff__body{
-  @apply grid grid-cols-3 text-center mx-5.5 mt-12 gap-5
+.testimonials__body {
+  @apply grid grid-cols-3 text-center mx-5.5 mt-12 gap-5;
 }
-.stuff__item{
-  @apply border-2 border-bg-rgba-3 p-14 rounded-3xl px-10
+.testimonials__item {
+  @apply border-2 border-bg-rgba-3 p-14 rounded-3xl px-10;
 }
-.stuff__text{
-  @apply font-semibold text-lg leading-relaxed mb-5
+.testimonials__text {
+  @apply font-semibold text-lg leading-relaxed mb-5;
 }
-.stuff__image{
-  @apply w-14 m-auto
+.testimonials__image {
+  @apply w-14 m-auto;
 }
-.stuff__subtitle{
- @apply font-medium  leading-relaxed
+.testimonials__subtitle {
+  @apply font-medium  leading-relaxed;
 }
-.stuff__subtitle--small{
-  @apply font-normal text-primary text-xs leading-18
+.testimonials__subtitle--small {
+  @apply font-normal text-primary text-xs leading-18;
 }
-.footer{
-  @apply mt-130 text-center relative
+.footer {
+  @apply mt-130 text-center relative;
 }
-.footer__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary text-center
+.footer__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary text-center;
 }
-.footer__text{
-  @apply  leading-relaxed font-normal mb-10
+.footer__text {
+  @apply leading-relaxed font-normal mb-10;
 }
-.footer__button{
-  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold
+.footer__button {
+  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold;
 }
-.footer__body{
-  @apply bg-primary text-white px-5.5 mt-100 pt-14 pb-100
+.footer__body {
+  @apply bg-primary text-white px-5.5 mt-100 pt-14 pb-100;
 }
-.footer__card{
-  @apply flex  text-left gap-28
+.footer__card {
+  @apply flex  text-left gap-28;
 }
-.footer__header{
-  @apply font-semibold text-lg mb-2.5
+.footer__header {
+  @apply font-semibold text-lg mb-2.5;
 }
-.footer__link{
-  @apply font-normal text-sm opacity-60 mb-3
+.footer__link {
+  @apply font-normal text-sm opacity-60 mb-3;
 }
-.footer__image{
-  @apply mb-5
+.footer__image {
+  @apply mb-5;
 }
-.footer__subtitle{
-  @apply font-semibold text-lg mb-5
+.footer__subtitle {
+  @apply font-semibold text-lg mb-5;
 }
-.footer__form{
-  @apply bg-semi-primary w-full m-auto flex  rounded-xl
+.footer__form {
+  @apply bg-semi-primary w-full m-auto flex  rounded-xl;
 }
-.footer__input{
-  @apply text-black outline-none bg-transparent p-3 placeholder:text-white placeholder:opacity-50  pl-3
+.footer__input {
+  @apply text-black outline-none bg-transparent p-3 placeholder:text-white placeholder:opacity-50  pl-3;
 }
-.footer__button--light{
-  @apply p-4 px-10 rounded-xl font-semibold text-black bg-white
+.footer__button--light {
+  @apply p-4 px-10 rounded-xl font-semibold text-black bg-white;
 }
-.footer__end{
-  @apply flex mt-14 opacity-50
+.footer__end {
+  @apply flex mt-14 opacity-50;
 }
-.footer__line{
-  @apply w-5/12 m-auto
+.footer__line {
+  @apply w-5/12 m-auto;
 }
-.hero-product{
-  @apply mx-5.5 grid grid-cols-2 bg-transparent mt-12
+.hero-product {
+  @apply mx-5.5 grid grid-cols-2 bg-transparent mt-12;
 }
-.hero-product__item{
-  @apply m-auto bg-transparent 
+.hero-product__item {
+  @apply m-auto bg-transparent;
 }
-.hero-product__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary 
+.hero-product__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary;
 }
-.hero-product__text{
-  @apply text-base leading-relaxed font-normal mb-7
+.hero-product__text {
+  @apply text-base leading-relaxed font-normal mb-7;
 }
-.hero-product__group{
-  @apply flex gap-5
+.hero-product__group {
+  @apply flex gap-5;
 }
-.hero-product__button{
-  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold
+.hero-product__button {
+  @apply bg-primary p-4 px-10 rounded-xl text-white font-semibold;
 }
-.hero-product__button--light{
-  @apply  p-4 px-10 rounded-xl font-semibold bg-transparent text-black border-3 border-bg-rgba-3
+.hero-product__button--light {
+  @apply p-4 px-10 rounded-xl font-semibold bg-transparent text-black border-3 border-bg-rgba-3;
 }
-.service__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary text-center
+.service__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary text-center;
 }
-.service__body{
-  @apply grid grid-cols-3 m-auto w-fit bg-secondary p-10 gap-10 mt-12 bg-bg-rgba-4  ml-0 mr-5.5 pl-5.5 rounded-none rounded-tr-md pt-100 pb-100
+.service__body {
+  @apply grid grid-cols-3 m-auto w-fit bg-secondary p-10 gap-10 mt-12 bg-bg-rgba-4  ml-0 mr-5.5 pl-5.5 rounded-none rounded-tr-md pt-100 pb-100;
 }
-.service__icon{
-  @apply w-6.6 mb-5
+.service__icon {
+  @apply w-6.6 mb-5;
 }
-.service__subtitle{
-  @apply font-bold text-2xl leading-relaxed my-1.5
+.service__subtitle {
+  @apply font-bold text-2xl leading-relaxed my-1.5;
 }
-.service__text{
-  @apply font-normal text-base opacity-80 mt-2.5
+.service__text {
+  @apply font-normal text-base opacity-80 mt-2.5;
 }
-.about{
-  @apply mx-5.5  mt-24 gap-10 grid grid-cols-2 mb-100
+.about {
+  @apply mx-5.5  mt-24 gap-10 grid grid-cols-2 mb-100;
 }
-.about__item{
-  @apply m-auto
+.about__item {
+  @apply m-auto;
 }
-.about__title{
-  @apply text-6xl font-semibold leading-normal mb-5 text-primary 
+.about__title {
+  @apply text-6xl font-semibold leading-normal mb-5 text-primary;
 }
-.about__title--small{
-  @apply text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-dark-blue to-light-blue mb-5 
+.about__title--small {
+  @apply text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-dark-blue to-light-blue mb-5;
 }
-.about__text{
-  @apply  text-base leading-relaxed font-normal
+.about__text {
+  @apply text-base leading-relaxed font-normal;
 }
-.about__img{
-  @apply h-448
+.about__img {
+  @apply h-448;
 }
